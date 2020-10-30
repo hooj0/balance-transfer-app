@@ -28,6 +28,7 @@ $ npm install
 $ PORT=4000 node app
 ```
 
-[NodeJS端API参考][https://github.com/hooj0/notes/blob/master/blockchain/hyperledger/hyperledger%20fabric%20%E6%BC%94%E7%A4%BA%20Node.js%20SDK%20API.md]
+[NodeJS端API参考](https://github.com/hooj0/notes/blob/master/blockchain/hyperledger/hyperledger%20fabric%20%E6%BC%94%E7%A4%BA%20Node.js%20SDK%20API.md)
 
 官方文档和示例代码：https://github.com/hyperledger/fabric-samples/tree/release-1.2/balance-transfer
+
