@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="eduyun-app" version="2.5">
+	<!-- 应用路径 -->
+	<context-param>
+		<param-name>webAppRootKey</param-name>
+		<param-value>photo-spider</param-value>
+	</context-param>
+
+
+	<servlet>
+		<servlet-name>app</servlet-name>
+		<servlet-class>com.cnblogs.hoojo.fabric.app.AppRequestServlet</servlet-class>
+		
+		<!-- <init-param>
+			<param-name>SERVER_URL</param-name>
+			<param-value>http://192.168.33.73:4000/</param-value>
+		</init-param> -->
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>app</servlet-name>
+		<url-pattern>/request</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
